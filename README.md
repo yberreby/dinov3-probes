@@ -16,6 +16,28 @@ More probes will be released over time; watch this repository and/or [the corres
 
 We recommend using [`uv`](https://docs.astral.sh/uv/).
 
+### Using `from_pretrained`
+
+```
+❯ uvx --with 'https://github.com/yberreby/dinov3-imagenet-1k-probes.git' ipython
+    Updated https://github.com/yberreby/dinov3-imagenet-1k-probes.git (41a0d0b86dbbe3b8f7b3a776fe0aa5f1fb46f635)
+      Built dinov3-probes @ git+https://github.com/yberreby/dinov3-imagenet-1k-probes.git@41a0d0b86dbbe3b8f7b3a776fe0aa5f1fb46f635
+Installed 44 packages in 225ms
+Python 3.12.11 (main, Jul  8 2025, 20:41:49) [Clang 20.1.4 ]
+Type 'copyright', 'credits' or 'license' for more information
+IPython 9.7.0 -- An enhanced Interactive Python. Type '?' for help.
+Tip: The `%timeit` magic has a `-o` flag, which returns the results, making it easy to plot. See `%timeit?`.
+
+In [1]: from dinov3_probes import DINOv3LinearClassificationHead
+
+In [2]: probe = DINOv3LinearClassificationHead.from_pretrained("yberreby/dinov3-vitb16-lvd1689m-in1k-512x512-linear-clf-probe")
+
+In [3]: probe
+Out[3]: DINOv3LinearClassificationHead(in_features=768, out_features=1000, bias=True)
+```
+
+### Detailed example
+
 ```bash
 git clone https://github.com/yberreby/dinov3-imagenet-1k-probes.git
 cd dinov3-imagenet-1k-probes
