@@ -10,7 +10,7 @@ Here, we provide IN1k probes for the following backbones:
   - [Official backbone](https://huggingface.co/facebook/dinov3-vitb16-pretrain-lvd1689m)
   - [512x512 IN1k probe](https://huggingface.co/yberreby/dinov3-vitb16-lvd1689m-in1k-512x512-linear-clf-probe)
 
-More probes will be released over time.
+More probes will be released over time; watch this repository and/or [the corresponding HuggingFace Collection](https://huggingface.co/collections/yberreby/dinov3-imagenet-1k-probes).
 
 ## Usage
 
