@@ -19,5 +19,6 @@ dev = [
     "torch>=2.9.1",
     "torchvision>=0.24.1",
     "transformers>=4.57.1",
+    "tyro>=0.9.35",
     "yaspin>=3.3.0",
 ]

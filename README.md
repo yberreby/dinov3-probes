@@ -91,3 +91,15 @@ Out[3]: torch.Size([1, 1000])
 
 In [4]:
 ```
+
+
+## Development
+
+To push to HuggingFace Hub, use the `push_to_hub.py` script.
+It will auto-detect the model name, image size, and other metadata.
+
+Example usage:
+
+```bash
+uv run push_to_hub.py --checkpoint dinov3-vitb16-lvd1689m-in1k-512x512-linear-clf-probe.pt
+```
