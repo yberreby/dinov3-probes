@@ -44,7 +44,7 @@ More probes will be released over time; watch this repository and/or [the corres
 | [ViT-S/16](https://huggingface.co/yberreby/dinov3-vits16-lvd1689m-in1k-512x512-linear-clf-probe) | 87.0% / **87.09%** | 81.29% |
 | [ViT-S+/16](https://huggingface.co/yberreby/dinov3-vits16plus-lvd1689m-in1k-512x512-linear-clf-probe) | 88.0% / **88.03%** | 82.60% |
 | [ViT-B/16](https://huggingface.co/yberreby/dinov3-vitb16-lvd1689m-in1k-512x512-linear-clf-probe) | 89.3% / **89.54%** | 85.00% |
-| [ViT-L/16](https://huggingface.co/yberreby/dinov3-vitl16-lvd1689m-in1k-512x512-linear-clf-probe) | 90.2% / **90.44%** | 86.70% |
+| [ViT-L/16](https://huggingface.co/yberreby/dinov3-vitl16-lvd1689m-in1k-512x512-linear-clf-probe) | 90.2% / **90.42%** | 87.44% |
 | ViT-H+/16 (coming soon) | 90.3% / — |  -- |
 
 The accuracy of the latest probes uploaded on the HF Hub can be queried using `uv run print_metrics.py`.
