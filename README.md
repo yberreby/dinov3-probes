@@ -45,8 +45,8 @@ See [the corresponding HuggingFace Collection](https://huggingface.co/collection
 
 | Probe | [IN-ReAL](https://github.com/google-research/reassessed-imagenet) val top-1 (official / ours) | IN1k val top-1 (ours) |
 |-------|--------------------------------|-------------------|
-| [ViT-S/16](https://huggingface.co/yberreby/dinov3-vits16-lvd1689m-in1k-512x512-linear-clf-probe) | 87.0% / **87.09%** | 81.29% |
-| [ViT-S+/16](https://huggingface.co/yberreby/dinov3-vits16plus-lvd1689m-in1k-512x512-linear-clf-probe) | 88.0% / **88.03%** | 82.60% |
+| [ViT-S/16](https://huggingface.co/yberreby/dinov3-vits16-lvd1689m-in1k-512x512-linear-clf-probe) | 87.0% / **87.08%** | 81.40% |
+| [ViT-S+/16](https://huggingface.co/yberreby/dinov3-vits16plus-lvd1689m-in1k-512x512-linear-clf-probe) | 88.0% / **88.08%** | 82.89% |
 | [ViT-B/16](https://huggingface.co/yberreby/dinov3-vitb16-lvd1689m-in1k-512x512-linear-clf-probe) | 89.3% / **89.54%** | 85.00% |
 | [ViT-L/16](https://huggingface.co/yberreby/dinov3-vitl16-lvd1689m-in1k-512x512-linear-clf-probe) | 90.2% / **90.42%** | 87.44% |
 | [ViT-H+/16](https://huggingface.co/yberreby/dinov3-vith16plus-lvd1689m-in1k-512x512-linear-clf-probe) | 90.3% / **90.31%** | 87.65% |
